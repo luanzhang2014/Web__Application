@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?rretjt');
+    src:url('../fonts/icomoon.eot?#iefixrretjt') format('embedded-opentype'),
+        url('../fonts/icomoon.woff?rretjt') format('woff'),
+        url('../fonts/icomoon.ttf?rretjt') format('truetype'),
+        url('../fonts/icomoon.svg?rretjt#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", sans-serif;
+}
+
+h1, h2, form{
+	text-align:  center;
+}
+
+*{
+    color: #133F5A;
+    margin:0;
+    padding: 0;
+}
+
+.background{
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:100%;
+    background-color: #EBF5F2;
+    overflow: auto;
+}
+
+#map {
+    width:700px; 
+    height:500px;
+    margin: 15px;
+}

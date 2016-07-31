@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EBAY DATA</title>
+    <link rel="stylesheet" type="text/css" href="./layout/default.css" />
+	<link rel="stylesheet" href="./layout/slidy/slidy.css">
+    <script src="./layout/jquery-3.1.0.min.js"></script>
+    <script src="./layout/jquery.blurr.js"></script>    
+    <script src="./layout/blur.js"></script>        
+	<script src="./layout/slidy/slidy.js"></script>
+    <script>
+		$(document).ready(function(){
+	        $('.slidyContainer').slidy({
+	        });
+		});
+    </script>
+    <style>
+        a{font-size: 50px;}
+    </style>
+</head>
+<body>
+	<div class="backgroundBlur">
+		<div data-href="./images/background1.jpg" data-sharpness="92">
+			<div><h1>EBAY DATA</h1></div>
+			<div ID="link"> <a href="./index.html"> Start Search </a> </div>
+ 		 </div>
+	</div>
+	<div class="pictures">
+	    <div class="slidyContainer" title="Your tooltip text">
+		    <div class="slidySlides">
+
+		        <!-- Each slide is wrapped in figure section -->
+
+		        <!-- Slide 1 -->
+		        <!-- add the 'slidyCurrent' class to which slide you want as default -->
+		        <figure class="slidyCurrent">
+		            <!-- Your context goes here -->
+		            <img src="./images/pic1.jpg">
+		            <figcaption>Image 1</figcaption>
+		            <!-- Use the figcaption element to add captions -->
+		            <br/>
+		        </figure>
+
+		        <!-- Slide 2 -->
+		        <figure>
+		            <img src="./images/pic2.jpg">
+		            <figcaption>Image 2</figcaption>
+		        </figure>
+
+		        <!-- Slide 3 -->
+		        <figure>
+		            <img src="./images/pic3.jpg">
+		            <figcaption>Image 3</figcaption>
+		        </figure>
+
+		        <!-- Slide 4 -->
+		        <figure>
+		            <img src="./images/pic4.jpg">
+		            <figcaption>Image 4</figcaption>
+		        </figure>
+
+		        <!-- Slide 5 -->
+		        <figure>
+		            <img src="./images/pic5.jpg">
+		            <figcaption>Image 5</figcaption>
+		        </figure>
+		    </div>
+		</div>
+	</div>
+</body>
+</html>

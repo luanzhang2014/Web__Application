@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?rretjt');
+    src:url('../fonts/icomoon.eot?#iefixrretjt') format('embedded-opentype'),
+        url('../fonts/icomoon.woff?rretjt') format('woff'),
+        url('../fonts/icomoon.ttf?rretjt') format('truetype'),
+        url('../fonts/icomoon.svg?rretjt#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", sans-serif;
+}
+
+*{
+    color: #fff;
+}
+
+h1, h2{
+	text-align:  center;
+}
+
+html,body,div{
+	height:100%;
+	padding:0;
+	margin:0;
+	overflow: auto;
+}
+
+a{
+    color: #133F5A;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover{color:#74777b;}
+
+span:before {
+    content: '';
+    height: 0px;
+    width: 0px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    border: 17px solid transparent;
+    border-bottom-color: #133F5A;
+    border-top: 0
+}
+
+span:after {
+    content: '';
+    height: 7px;
+    width: 7px;
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 208px;
+    border: 6px #133F5A solid;
+    border-top-width: 10px;
+    border-bottom: 0;
+}
+
+.backgroundBlur{
+    text-align:center;
+    height:750px;
+    width:100%;
+    overflow:hidden;
+    background-color: #EBF5F2;
+}
+
+.slidyContainer{
+    position:relative;
+    left:250px;
+    top:150px;
+    height:350px;
+    width:750px;
+}
+
+.slidySlides{
+    overflow:hidden;            
+}
+
+.pictures{
+    height:700px;
+    background-color: #EBF5F2;
+}
+
+#link{
+    position:relative;
+    top:18em;
+}
+
+

@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Keyword Search</title>
+        <link rel="stylesheet" type="text/css" href="./layout/searchPage.css" />
+        <link rel="stylesheet" type="text/css" href="./layout/autosuggest.css" />        
+        <script src="./layout/jquery-3.1.0.min.js"></script>
+        <script src ="./layout/blur.js"></script>
+        <script type="text/javascript" src="./layout/autosuggest.js"></script>
+        <script type="text/javascript" src="./layout/suggestions.js"></script>
+
+        <script type="text/javascript">
+            window.onload = function () {
+                var oTextbox = new AutoSuggestControl(document.getElementById("txt"), new GoogleSuggestions());        
+            }
+        </script>
+    </head>
+    <body>
+	<div class = "background">
+        <h1> Search Item by Keyword </h1>
+		<form  action = "/eBay/search" method = "GET">
+
+            Enter Keyword: <input type = "text" id="txt" name = "q" autocomplete = "off"/>
+            <input type = "submit" value = "Submit"/>
+			<input type = "hidden" name = "numResultsToSkip" value = "0"/>
+			<input type = "hidden" name = "numResultsToReturn" value = "20"/>
+		</form>
+	</div>
+    </body>
+</html>
